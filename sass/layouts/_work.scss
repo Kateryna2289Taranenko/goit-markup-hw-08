@@ -1,0 +1,29 @@
+.works-section .section {
+  padding-top: 0;
+}
+.works-section__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+}
+.works-section__image {
+  flex-basis: calc(100% / 3 - 30px);
+  position: relative;
+}
+.works-section__wrap {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.works-section__text {
+  color: $primary-white-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1428;
+}

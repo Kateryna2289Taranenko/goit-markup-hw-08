@@ -1,0 +1,30 @@
+.client-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.client-item {
+  width: 170px;
+  height: 92px;
+}
+.client-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+  transition-property: border-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+    fill: $accent-color;
+  }
+}
+.client-logo {
+  fill: currentColor;
+}

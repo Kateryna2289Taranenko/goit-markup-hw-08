@@ -1,0 +1,90 @@
+.header {
+  background-color: $primary-white-color;
+  border-bottom: 1px solid #ececec;
+  display: flex;
+  text-align: center;
+}
+.header-container {
+  display: flex;
+  text-align: center;
+}
+.logo {
+  display: block;
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+}
+.logo-web {
+  color: $accent-color;
+}
+.link {
+  color: $title-text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  position: relative;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+.list {
+  display: flex;
+  gap: 50px;
+  margin-right: 318px;
+  & .link.current {
+    color: $accent-color;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+.header-link {
+  color: $primary-text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+.communication {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.communication-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+.current::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 4px;
+  background: $accent-color;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
