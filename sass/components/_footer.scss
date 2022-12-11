@@ -4,23 +4,30 @@
 .footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
+  // align-items: baseline;
   display: flex;
-  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .logo-footer {
   color: $primary-white-color;
   font-family: Raleway, sans-serif;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1923;
+  font-size: 24px;
+  line-height: 1.1666;
+  // font-size: 26px;
+  // line-height: 1.1923;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
   &:focus {
     color: $accent-color;
   }
 }
 .link-address:not(:last-child) {
-  margin-bottom: 9px;
+  margin-bottom: 12px;
 }
 .footer-map {
   color: $primary-white-color;

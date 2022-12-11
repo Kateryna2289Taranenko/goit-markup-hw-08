@@ -1,5 +1,5 @@
 .sign {
-  margin-left: 93px;
+  // margin-left: 93px;
 }
 .sign-title {
   font-weight: 700;
@@ -10,10 +10,14 @@
 }
 .sent-form {
   display: flex;
-  gap: 12px;
+  flex-wrap: wrap;
+  // gap: 12px;
+  gap: 20px;
+  justify-content: center;
 }
 .user-mail-footer {
-  min-width: 358px;
+  // min-width: 358px;
+  width: 100%;
   background: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;

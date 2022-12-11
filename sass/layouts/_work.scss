@@ -1,5 +1,9 @@
-.works-section .section {
+.works-section {
   padding-top: 0;
+  display: none;
+  @media screen and (min-width:1200px) {
+    display: initial;
+  }
 }
 .works-section__list {
   display: flex;

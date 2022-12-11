@@ -1,11 +1,13 @@
 .client-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
 }
 .client-item {
-  width: 170px;
+  // width: 170px;
   height: 92px;
+  width: calc((100% - 30px) / 2);
 }
 .client-link {
   display: flex;
