@@ -1,5 +1,10 @@
 .join {
-  // margin-left: 70px;
+  @media screen and (min-width: 768px) {
+    margin-left: 165px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
+  }
 }
 .join-text {
   font-weight: 700;

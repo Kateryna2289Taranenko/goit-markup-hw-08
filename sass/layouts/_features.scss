@@ -5,6 +5,12 @@
 }
 .features-section__item {
   width: 100%;
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 30px) / 2);
+  }
+  @media screen and (min-width: 1200px) {
+    width: calc((100% - 120px) / 4);
+  }
 }
 .features-section__title {
   margin-bottom: 10px;
@@ -24,26 +30,6 @@
   justify-content: center;
   background: #f5f4fa;
   border-radius: 4px;
-  // width: 270px;
   height: 120px;
   margin-bottom: 30px;
 }
-
-// .features-section__item {
-//   width: 100%;
-// }
-// .features-section__box {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   background: #f5f4fa;
-//   border-radius: 4px;
-//   margin-bottom: 30px;
-// }
-// .features-section__title {
-//     margin-bottom: 10px;
-//     color: $title-text-color;
-//     font-weight: 700;
-//     font-size: 14px;
-//     line-height: 1.1428;
-//   }

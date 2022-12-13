@@ -5,9 +5,14 @@
   justify-content: center;
 }
 .client-item {
-  // width: 170px;
   height: 92px;
   width: calc((100% - 30px) / 2);
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 60px) / 3);
+  }
+  @media screen and (min-width: 1200px) {
+    width: 170px;
+  }
 }
 .client-link {
   display: flex;
