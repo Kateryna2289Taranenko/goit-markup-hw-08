@@ -1,6 +1,6 @@
 .sign {
   @media screen and (min-width: 1200px) {
-margin-left: 93px;
+    margin-left: 93px;
   }
 }
 .sign-title {
@@ -18,10 +18,9 @@ margin-left: 93px;
   @media screen and (min-width: 1200px) {
     gap: 12px;
     flex-wrap: nowrap;
-      }
+  }
 }
 .user-mail-footer {
-  
   width: 100%;
   background: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -49,8 +48,8 @@ margin-left: 93px;
     color: rgba(255, 255, 255, 0.6);
   }
   @media screen and (min-width: 1200px) {
-   min-width: 358px;
-      }
+    min-width: 358px;
+  }
 }
 .btn-sent {
   background-color: $accent-color;

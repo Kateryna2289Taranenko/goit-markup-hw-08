@@ -1,8 +1,8 @@
 .works-section {
   padding-top: 0;
   display: none;
-  @media screen and (min-width:1200px) {
-    display: initial;
+  @media screen and (min-width: 1200px) {
+    display: flex;
   }
 }
 .works-section__list {
