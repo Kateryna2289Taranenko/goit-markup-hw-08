@@ -192,14 +192,9 @@ body {
   align-items: center;
 }
 
-.mob-social-item:not(:last-child)::after {
-  content: "";
-  display: inline-block;
-  width: 22px;
-  height: 0;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  margin-left: 10px;
-  transform: rotate(90deg);
+.mob-social-item:not(:last-child) {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  padding-right: 10px;
 }
 
 .mob-social-link {
@@ -209,6 +204,7 @@ body {
   letter-spacing: 0.02em;
   color: #2196f3;
   display: block;
+  position: relative;
 }
 
 .backdrop {

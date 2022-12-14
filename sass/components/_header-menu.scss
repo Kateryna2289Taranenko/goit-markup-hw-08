@@ -88,14 +88,9 @@
   gap: 10px;
   align-items: center;
 }
-.mob-social-item:not(:last-child)::after {
-  content: "";
-  display: inline-block;
-  width: 22px;
-  height: 0;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  margin-left: 10px;
-  transform: rotate(90deg);
+.mob-social-item:not(:last-child) {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  padding-right: 10px;
 }
 .mob-social-link {
   font-weight: 500;
@@ -104,4 +99,5 @@
   letter-spacing: 0.02em;
   color: $accent-color;
   display: block;
+  position: relative;
 }
