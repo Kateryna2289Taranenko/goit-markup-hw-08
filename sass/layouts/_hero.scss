@@ -7,24 +7,24 @@
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-image: $gradient, url(../../images/Header-img-mob.jpg);
+  background-image: $gradient, url(../images/Header-img-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   @include retina {
-    background-image: $gradient, url(../../images/Header-img-mob-2x.jpg);
+    background-image: $gradient, url(../images/Header-img-mob-2x.jpg);
   }
   @media screen and (min-width: 480px) {
-    background-image: $gradient, url(../../images/Header-img-tab.jpg);
+    background-image: $gradient, url(../images/Header-img-tab.jpg);
     @include retina {
-      background-image: $gradient, url(../../images/Header-img-tab-2x.jpg);
+      background-image: $gradient, url(../images/Header-img-tab-2x.jpg);
     }
   }
   @media screen and (min-width: 768px) {
     max-width: 768px;
-    background-image: $gradient, url(../../images/hero-desktop.jpg);
+    background-image: $gradient, url(../images/hero-desktop.jpg);
     @include retina {
-      background-image: $gradient, url(../../images/Header-image-desktop-2x.jpg);
+      background-image: $gradient, url(../images/Header-image-desktop-2x.jpg);
     }
   }
   @media screen and (min-width: 1200px) {
